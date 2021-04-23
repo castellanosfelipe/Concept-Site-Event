@@ -1,0 +1,69 @@
+.text-platzi{
+    color: #97c93e !important;
+}
+
+.btn-plazi{
+    background-color: #97c93e;
+    color: white;
+}
+.btn-plazi:hover {
+    background-color: #82ad36;
+}
+
+.badges {
+    text-align: right;
+}
+
+body {
+    position:relative;
+}
+
+#header img{
+    width: 80px;
+}
+
+#Main .carousel-inner img{
+    max-height: 70vh; /* Ocupar el espacio (alto) en 70% disponible */
+    object-fit: cover; /* Acomodar las imagenes y que no e vean estiradas */
+    filter: grayscale(70%); /* Poner las imagenes en escala de grises para que se vean mas opacas */
+}
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: (0,0,0,0.5);
+    color: white;
+} 
+
+#carousel .overlay .contaier,
+#carousel .overlay .row {
+    height: 100%;
+}
+
+#place-time {
+    background-color: #343a40;
+    color: white;
+}
+
+#place-time img {
+    max-width: 100%;
+}
+
+#footer {
+    background: #19303c;
+}
+
+#footer a{
+    color: white;
+    text-decoration:none;
+}
+
+

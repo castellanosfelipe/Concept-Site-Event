@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+    <title>platzi conf hawai</title>
+  </head>
+
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="56" > 
+     <!-- HEADER -->
+     <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/platzi-logo.png" alt="platzi logo"> confHawai
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#Main">La Conferencia</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#speakers">Los Oradores</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#place-time">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#conviertete-en-orador">Conviertete en orador</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-platzi" href="#" data-bs-toggle="modal" data-bs-target="#Modal-compra">Comprar tickets</a>
+                </li>
+            </ul>     
+          </div>
+                </div>
+                </nav>
+     <!--/HEADER -->
+
+
+     <!--Main -->
+    <main id="Main">
+      <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false">
+        <div class="carousel-inner" >
+          <div class="carousel-item active">
+            <img src="assets/images/hawaii.jpg" class="d-block w-100" alt="Hawai1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/hawaii2.jpg" class="d-block w-100" alt="Hawai2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images/hawaii3.jpeg" class="d-block w-100" alt="Hawai3">
+          </div>
+          <div class="overlay">
+            <div class="contaier">
+              <div class="row align-items-center">
+                <div class="col-md-6  offset-md-6 text-center text-md-right">
+                  <h1>Platzi conf hawai</h1>
+                  <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, voluptatem! Sed voluptates unde doloremque laudantium dolor totam, neque ipsam asperiores esse cum eveniet? Ducimus odio veritatis debitis ut illo iure!</p>
+                  <a href="#" class="btn btn-outline-light"> Quiero ser un orador</a>
+                  <button type="button" class="btn btn-plazi" data-bs-toggle="modal" data-bs-target="#Modal-compra">Comprar tickets</button>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </main>
+     <!--/Main-->
+
+
+     <!--Speaker -->
+     <section id="speakers" class="mt-4">
+       <div class="container">
+         <div class="row ">
+           <div class="col text-center text-uppercase">
+             <small>Conoce a los</small>
+             <h2>Oradores</h2>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" >
+              <img src="assets/Speakers/sacha.jpg" class="card-img-top" alt="Foto de sacha">
+              <div class="card-body">
+                <div class="badges">
+                  <span class="badge bg-warning text-light">JavaScript</span>
+                  <span class="badge bg-info text-light">React</span>
+                </div>
+                <h5 class="card-title">Sasha Lifsy</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+           </div>
+           <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" >
+              <img src="assets/Speakers/leonidas.jpeg" class="card-img-top" alt="Foto de leonidas Esteban">
+              <div class="card-body">
+                <div class="badges">
+                  <span class="badge bg-danger text-light">Angular</span>
+                  <span class="badge bg-info text-light">React</span>
+                </div>
+                <h5 class="card-title">Leonidas Gonsalez</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+           </div>
+           <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card" >
+              <img src="assets/Speakers/freddy.jpeg" class="card-img-top" alt="Foto de freddy">
+              <div class="card-body">
+                <div class="badges">
+                  <span class="badge bg-success">Ceo ceibalab</span>
+                </div>
+                <h5 class="card-title">Freddy Vega</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+           </div>
+           <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card">
+              <img src="assets/Speakers/cvander.jpeg" class="card-img-top" alt="Foto de cvander">
+              <div class="card-body">
+                <div class="badges">
+                   <span class="badge bg-success">Cto ceibalab</span>
+                </div>
+                <h5 class="card-title">Cristian Van Der H.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!--/Speaker-->
+
+
+     <!--Lugar y fecha -->
+     <section id="place-time">
+       <div class="container-fluid">
+         <div class="row">
+           <div class="col-12 col-lg-6 ps-0 pe-0">
+             <img src="assets/images/honolulu.jpg" alt="Ciudad de honolulu">
+           </div>
+           <div class="col-12 col-lg-6 pt-2 pb-4">
+            <h2>Honolulu - Octubre 2025</h2>
+            <p>Honolulu o Honolulú es la capital y localidad más grande del 		estado de Hawái, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la isla (aproximadamente 600 km² de superficie).
+            </p>
+            <a class="btn btn-outline-light" href="https://es.wikipedia.org/wiki/Honolulu">Conoce mas</a>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!--/Lugar y fecha-->
+
+
+     <!--Coniertete en orador -->
+     <section id="conviertete-en-orador" class="pt-2 pb-2">
+       <div class="container">
+         <div class="row">
+           <div class="col  text-uppercase text-center">
+             <small>Conviertete en un</small>
+             <h2>Orador</h2>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col text-center pb-2">Anotate como orador para una <abbr data-bs-toggle="tooltip" title="Charlas de 5 minutos">charla ignite.</abbr>
+             Cuentanos de que quieres hablas!
+           </div>
+         </div>
+         <div class="row">
+           <div class="col">
+            <form>
+              <div class="form row">
+                  <div class="mb-3 form-group col-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="mb-3 col-12 col-md-6">
+                      <input type="text" class="form-control" placeholder="Apellido">
+                  </div>
+              </div>
+              <div class="form row">
+                  <div class="mb-3 col">
+                      <textarea name="text" class="form-control form-control-lg" placeholder="Sobre que quieres hablar?"></textarea>
+                      <small class="form-text text-muted">
+                          Recuerda incluir un titulo para tu charla
+                      </small>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                      <button type="button" class="btn btn-plazi w-100">Enviar</button>
+                  </div>
+              </div> 
+          </form>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!--/Coniertete en orador-->
+     
+
+
+     <!-- FOOTER -->
+      <footer id="footer" class="pb-4 pt-4">
+          <div class="container">
+              <div class="row text-center">
+                  <div class="col-12 col-lg">
+                      <a href="#">Pregutas frecuentes</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                      <a href="#">Contactanos</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                      <a href="#">Prensa</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="#">Conferencia</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="#">Terminos y condiciones</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="#">Privacidad</a>
+                  </div>
+                  <div class="col-12 col-lg">
+                    <a href="#">Estudiantes</a>
+                  </div>
+             </div>
+         </div>
+      </footer>
+     <!-- /FOOTER -->
+
+
+     <!-- Modal -->
+     <div class="modal fade" id="Modal-compra" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Comprar Tickets</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="alert alert-dark" role="alert">
+              Recibiras un correo de confirmacion
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            <button type="button" class="btn btn-plazi">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!--/Modal -->
+
+     
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+    <script src="index.js"> </script>
+  </body>
+</html>
