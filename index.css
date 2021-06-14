@@ -1,69 +1,85 @@
-.text-platzi{
-    color: #97c93e !important;
+.text-platzi {
+  color: #97c93e !important;
+}
+.tt {
+  background: #bebebe;
+}
+.card {
+  background: #eeeeee;
+  border-radius: 20px;
+  padding: 5px;
 }
 
-.btn-plazi{
-    background-color: #97c93e;
-    color: white;
+.card-img-top {
+  border-radius: 20px;
+}
+
+.btn-plazi {
+  background-color: #97c93e;
+  color: white;
 }
 .btn-plazi:hover {
-    background-color: #82ad36;
+  background-color: #82ad36;
 }
 
 .badges {
-    text-align: right;
+  text-align: right;
 }
 
 body {
-    position:relative;
+  position: relative;
 }
 
-#header img{
-    width: 80px;
+#header h1 {
+  width: 80px;
 }
 
-#Main .carousel-inner img{
-    max-height: 70vh; /* Ocupar el espacio (alto) en 70% disponible */
-    object-fit: cover; /* Acomodar las imagenes y que no e vean estiradas */
-    filter: grayscale(70%); /* Poner las imagenes en escala de grises para que se vean mas opacas */
+#Main .carousel-inner img {
+  max-height: 70vh; /* Ocupar el espacio (alto) en 70% disponible */
+  object-fit: cover; /* Acomodar las imagenes y que no e vean estiradas */
+  filter: grayscale(
+    70%
+  ); /* Poner las imagenes en escala de grises para que se vean mas opacas */
 }
 
 #carousel {
-    position: relative;
+  position: relative;
 }
 
 #carousel .overlay {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: (0,0,0,0.5);
-    color: white;
-} 
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: (0, 0, 0, 0.5);
+  color: white;
+}
 
 #carousel .overlay .contaier,
 #carousel .overlay .row {
-    height: 100%;
+  height: 100%;
 }
 
 #place-time {
-    background-color: #343a40;
-    color: white;
+  background-color: #343a40;
+  color: white;
 }
 
 #place-time img {
-    max-width: 100%;
+  max-width: 100%;
+}
+
+.Color-text::placeholder {
+  color: #19303c;
 }
 
 #footer {
-    background: #19303c;
+  background: #19303c;
 }
 
-#footer a{
-    color: white;
-    text-decoration:none;
+#footer a {
+  color: white;
+  text-decoration: none;
 }
-
-
